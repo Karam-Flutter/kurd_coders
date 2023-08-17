@@ -21,7 +21,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Widget get _body {
-    return Column(
+    return ListView(
       children: [
         bannerView,
         SizedBox(height: 30),
