@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  "255",
+                  "256",
                   style: TextStyle(fontWeight: FontWeight.w600),
                 ),
                 SizedBox(width: 4),

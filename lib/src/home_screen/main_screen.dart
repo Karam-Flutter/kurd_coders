@@ -18,15 +18,15 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        // bottomNavigationBar: _myNavigationBar,
-        backgroundColor: Colors.grey.shade300,
-        body: Stack(
-          children: [
-            Positioned.fill(child: _body),
-            Positioned(
-                bottom: 16, left: 16, right: 16, child: _myNavigationBar),
-          ],
-        ));
+      // bottomNavigationBar: _myNavigationBar,
+      backgroundColor: Colors.grey.shade300,
+      body: Stack(
+        children: [
+          Positioned.fill(child: _body),
+          Positioned(bottom: 16, left: 16, right: 16, child: _myNavigationBar),
+        ],
+      ),
+    );
   }
 
   Widget get _body {
